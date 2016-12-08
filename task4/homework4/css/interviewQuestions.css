@@ -1,0 +1,79 @@
+body,
+html {
+	position: relative;
+	min-width: 968px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #7e7e7e;
+}
+
+body {
+	padding-top: 15px;
+}
+
+.container {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	padding: 15px;
+	width: 968px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 70px 84px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 25px;
+	color: #000;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+h2.fontsize {
+	line-height: 50px;
+}
+
+h3 {
+	margin-top: 30px;
+}
+
+.pagescript {
+	color: #000;
+}
+
+.pagefooter {
+	color: #000;
+	width: 100%;
+	text-align: center;
+	padding-top: 70px;
+}
+
+p {
+	padding-left: 37px;
+	line-height: 28px;
+	text-indent: 2em;
+	padding-top: 10px;
+}
+
+.sectioncls {
+	margin-top: 92px;
+}
+
+.page1 {
+	padding-top: 70px;
+}
+
+.bigHeader {
+	color: #4183c4;
+	font-size: 37px;
+	font-weight: 600;
+	padding-left: 40px;
+	padding-top: 40px;
+}

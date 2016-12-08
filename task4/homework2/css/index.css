@@ -1,0 +1,280 @@
+/*
+ * Base structure
+ */
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+	background: #EDEDED;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+
+.navbar-fixed-top {
+	border: 0;
+}
+
+
+/*
+ * Sidebar
+ */
+
+
+/* Hide for mobile, show later */
+
+.sidebar {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.sidebar {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		padding: 0px;
+		/*overflow-x: hidden;*/
+		overflow-y: auto;
+		/* Scrollable contents if viewport is shorter than content. */
+		background-color: #33495D;
+		/*border-right: 1px solid #eee;*/
+	}
+}
+
+
+/* Sidebar navigation */
+
+.nav-sidebar {
+	padding-right: -21px;
+	/* 20px padding + 1px border */
+	margin-bottom: 20px;
+	margin-left: -20px;
+}
+
+.nav-logo {
+	width: 100%;
+	background-color: #2B3D4F;
+	height: 128px;
+	position: relative;
+}
+
+.nav-logo img {
+	position: absolute;
+	top: 37px;
+	left: 10%;
+}
+
+.nav-sidebar li {
+	line-height: 60px;
+}
+
+.nav-sidebar> li> a {
+	padding-right: 20px;
+	padding-left: 85px;
+	color: #97A1AD;
+	position: relative;
+}
+
+.nav-sidebar>li> a:hover,
+.nav-sidebar> li>a:focus {
+	color: #97A1AD;
+	background-color: #2B3D4F;
+}
+
+.nav-sidebar>li>a>span {
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	background: #959FA9;
+	border-radius: 50%;
+	display: block;
+	right: 10%;
+	line-height: 28px;
+	text-align: center;
+	top: 50%;
+	margin-top: -14px;
+	color: #fff;
+	transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	-o-transition: all 0.8s;
+}
+
+.nav-sidebar>li>a>span.nav-select {
+	background: #F76B4F;
+}
+
+.nav-sidebar>li:nth-child(1)>a>i {
+	position: absolute;
+	width: 22px;
+	height: 20px;
+	display: block;
+	top: 50%;
+	margin-top: -10px;
+	background: url(../img/icon-1.png) no-repeat;
+	background-size: 22px 20px;
+	left: 12%;
+}
+
+.nav-sidebar>li:nth-child(2)>a>i {
+	position: absolute;
+	width: 22px;
+	height: 14px;
+	display: block;
+	top: 50%;
+	margin-top: -7px;
+	background: url(../img/icon-2.png) no-repeat;
+	left: 12%;
+	background-size: 22px 14px;
+}
+
+.nav-sidebar>li:nth-child(3)>a>i {
+	position: absolute;
+	width: 24px;
+	height: 16px;
+	display: block;
+	top: 50%;
+	margin-top: -8px;
+	background: url(../img/icon-3.png) no-repeat;
+	left: 12%;
+	background-size: 24px 16px;
+}
+
+.nav-sidebar>li:nth-child(4)>a>i {
+	position: absolute;
+	width: 20px;
+	height: 18px;
+	display: block;
+	top: 50%;
+	margin-top: -9px;
+	background: url(../img/icon-4.png) no-repeat;
+	left: 12%;
+	background-size: 20px 18px;
+}
+
+.nav-sidebar>li:nth-child(5)>a>i {
+	position: absolute;
+	width: 22px;
+	height: 18px;
+	display: block;
+	top: 50%;
+	margin-top: -9px;
+	background: url(../img/icon-5.png) no-repeat;
+	left: 12%;
+	background-size: 22px 18px;
+}
+
+.nav-sidebar>li:nth-child(6)>a>i {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	display: block;
+	top: 50%;
+	margin-top: -10.5px;
+	background: url(../img/icon-6.png) no-repeat;
+	left: 12%;
+	background-size: 21px 21px;
+}
+
+.nav-sidebar dl {
+	padding-left: 95px;
+	margin-bottom: 0px;
+	line-height: 0;
+	display: none;
+	background: #2B3D4F;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+
+.nav-sidebar dd {
+	color: #97A1AD;
+	width: 100%;
+	margin-bottom: 0px;
+	line-height: 25px;
+}
+
+.nav-sidebar dd a {
+	display: block;
+	color: #97A1AD;
+	text-decoration: none;
+}
+
+.navbar-define {
+	background: #33495D;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #97A1AD;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	background: #2B3D4F;
+	color: #97A1AD;
+}
+
+
+
+/*
+ * Main content
+ */
+
+.main {
+	padding: 20px;
+	padding-top: 60px;
+}
+
+@media (min-width: 768px) {
+	.main {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	.navbar-define {
+		display: none
+	}
+}
+
+.main .page-header {
+	margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.placeholders h4 {
+	margin-bottom: 0;
+}
+
+.placeholder {
+	margin-bottom: 20px;
+}
+
+.placeholder img {
+	display: inline-block;
+	border-radius: 50%;
+}

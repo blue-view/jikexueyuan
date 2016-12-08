@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>百度一下，你就知道</title>
+		<link rel="shortcut icon" href=img/favicon.ico type="image/x-icon" />
+		<link rel='stylesheet' href="css/reset.css" />
+		<!--引入字体图标文件-->
+		<link rel="stylesheet" href="iconfont/iconfont.css">
+		<link rel="stylesheet" href="css/baidu.css" />
+
+		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+		<!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+		<script src="js/ie-emulation-modes-warning.js"></script>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+	</head>
+
+	<body>
+
+		<!--[if lte IE 8]> 
+		<noscript>
+		     <style>.wrapper{display:none!important;}</style>
+		     <div class="ie-noscript-warning">您的浏览器禁用了脚本，请<a href="">查看这里</a>来启用脚本!或者<a href="/?noscript=1">继续访问</a>.
+		     </div>
+		</noscript>
+			<![endif]-->
+		<!--
+				分辨率大于768px
+            -->
+		<div class="wrapper response-cls">
+			<header>
+				<nav>
+					<a href="http://www.nuomi.com/?cid=002540">糯米</a>
+					<a href="http://news.baidu.com">新闻</a>
+					<a href="http://www.hao123.com">hao123</a>
+					<a href="http://map.baidu.com">地图</a>
+					<a href="http://v.baidu.com">视频</a>
+					<a href="http://tieba.baidu.com">贴吧</a>
+					<a href="https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F" class="login">登录</a>
+					<a href="###" class="setting">设置</a>
+					<a href="###" class="more" id="moreproc1"> 更多产品</a>
+				</nav>
+				<div class="bdbri bdbriimg" id="moreproc">
+					<div class="bdmainlink">
+						<div class="bdbriimgtitle">更多产品</div>
+						<div class="briscrollwrapperContainer">
+							<div class="briscrollwrapper bdbriscroll-ctrl-content bdbriscroll-onwheel" style="height: 625px;">
+								<div class="bdbriwrapper">
+									<a href="http://music.baidu.com" name="tj_mp3"><span class="bdbriimgitem_3"></span>音乐</a>
+									<a href="http://image.baidu.com" name="tj_img"><span class="bdbriimgitem_4"></span>图片</a>
+									<a href="http://zhidao.baidu.com" name="tj_zhidao"><span class="bdbriimgitem_2"></span>知道</a>
+									<a href="http://wenku.baidu.com" name="tj_wenku"><span class="bdbriimgitem_5"></span>文库</a>
+									<a href="http://top.baidu.com" name="tj_bang"><span class="bdbriimgitem_6"></span>风云榜</a>
+									<div class="bdbrievenmore">
+										<a href="//www.baidu.com/more/" name="tj_more">全部产品&gt;&gt;</a>
+									</div>
+								</div>
+							</div>
+							<div class="bdbriscroll-ctrl-scroll" style="height: 605px; display: none;">
+								<div class="bdbriscroll-axis" style="height: 605px;"></div>
+								<div class="bdbriscroll-slider OP_LOG_BTN" style="display: none; top: 0px;">
+									<div class="bdbriscroll-s-top"></div>
+									<div class="bdbriscroll-s-bottom"></div>
+									<div class="bdbriscroll-s-block"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="content">
+				<div class="content-form">
+					<img src="img/bd_logo1.png" alt="百度一下" />
+					<form action="https://www.baidu.com/s" method="get" target="_blank">
+						<div class="input-container">
+							<input id="wd" type="text" name="wd" /><span class="soutu-btn"></span>
+						</div>
+
+						<button type="submit" id="btn-baidu">百度一下</button>
+					</form>
+				</div>
+
+			</div>
+			<footer>
+				<div class="ftCon-Wrapper">
+					<div id="qrcode">
+						<div id="mobile-baidu">
+							<div class="mobile-baidu-img"></div>
+							<div class="mobile-baidu-text">
+								<p><b>手机百度</b></p>
+								<p><span>快人一步</span></p>
+							</div>
+						</div>
+						<div id="baidu-ruomi">
+							<div class="baidu-ruomi-img"></div>
+							<div class="baidu-ruomi-text">
+								<p><b>百度糯米</b></p>
+								<p><span>一元大餐</span></p>
+							</div>
+						</div>
+					</div>
+					<div id="baidu-info">
+						<p id="lh">
+							<a id="setf" href="//www.baidu.com/cache/sethelp/help.html" target="_blank">把百度设为主页</a>
+							<a href="http://home.baidu.com">关于百度</a>
+							<a href="http://ir.baidu.com">About&nbsp;&nbsp;Baidu</a>
+							<a href="http://e.baidu.com/?refer=888">百度推广</a>
+						</p>
+						<p id="cp">©2016&nbsp;Baidu&nbsp;
+							<a href="http://www.baidu.com/duty/">使用百度前必读</a>&nbsp;
+							<a href="http://jianyi.baidu.com/" class="cp-feedback">意见反馈</a>&nbsp;京ICP证030173号&nbsp;<i class="c-icon-icrlogo"></i></p>
+						<a id="jgwab" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001"><i class="c-icon-jgwablogo"></i>京公网安备11000002000001号</a>
+
+					</div>
+				</div>
+
+			</footer>
+		</div>
+
+		<!--
+				分辨率小于767px
+            -->
+		<div class="container-min">
+			<div class="header">
+				<div class="wheather">
+					<span class="cloudy iconfont" style="font-size: 27px; color: #b7babe;">&#xe63b;
+						
+					</span>
+					<span class="temp">25°</span>
+					<span class="air">
+						<p>福州</p>
+						<p class="air-arrow">空气&nbsp;&nbsp;55</p>
+					</span>
+				</div>
+				<div class="userinfo">
+					<a class='icon iconfont headpic' href="https://wappass.baidu.com/passport/?login&tpl=wimn&ssid%3D0%26amp%3Bfrom%3D844b%26amp%3Buid%3D%26amp%3Bpu%3Dsz%2540320_1001%252Cta%2540iphone_2_6.0_3_537%26amp%3Bbd_page_type%3D1&tn=&regtype=1&u=https%3A%2F%2Fm.baidu.com" style="font-size: 25px;color: #666">
+						&#xe633;
+					</a>
+					<a href="https://www.baidu.com/#iview=skin" class="skin iconfont" style="font-size: 21px; color: #666">
+						&#xe69e;
+					</a>
+				</div>
+			</div>
+			<div class="content">
+				<div class="logo">
+					<img src='img/plus_logo.png' width="181px" height="57px" />
+				</div>
+				<div class="search">
+					<form action="https://www.baidu.com/s" method="get">
+						<input id="wd" type="text" name="wd" maxlength="64" />
+						<i id='icon-sound'></i>
+						<i id='icon-arrow'></i>
+						<button type="submit" id="btn-baidu-xs">百度一下</button>
+					</form>
+				</div>
+				<div class="nav">
+					<div class="navmenu">
+						<div class='navmenu-item item-first'>
+							<a href="https://www.baidu.com/#iact=wiseindex%2Ftabs%2Fmine%2Factivity%2Fmidmine%3D%257B%2522linkData%2522%253A%257B%2522name%2522%253A%2522iframe%252Fmib-iframe%2522%252C%2522id%2522%253A0%252C%2522index%2522%253A0%252C%2522url%2522%253A%2522%2522%252C%2522title%2522%253A%2522%25E5%2585%25B3%25E6%25B3%25A8%2522%257D%257D">
+								<i class="focus"></i>
+								<span>关注</span>
+							</a>
+						</div>
+						<div class='navmenu-item item-mid'>
+							<a href="http://m.news.baidu.com/news?fr=mohome&ssid=0&from=844b&uid=&pu=sz%40320_1001%2Cta%40iphone_2_6.0_3_537&bd_page_type=1#/?_k=4ooy84">
+								<i class="news"></i>
+								<span>新闻</span>
+							</a>
+						</div>
+						<div class='navmenu-item item-mid'>
+							<a href="http://dushu.m.baidu.com/">
+								<i class="novel"></i>
+								<span>小说</span>
+							</a>
+						</div>
+						<div class='navmenu-item item-mid'>
+							<a href="http://video.m.baidu.com/?from=wise_nav#/?_k=4uce4m">
+								<i class='vedio'></i>
+								<span>视频</span>
+							</a>
+						</div>
+						<div class='navmenu-item item-mid'>
+							<a href="https://m.nuomi.com/?cid=wise_shouye_nuomi">
+								<i class="nuomi"></i>
+								<span>糯米</span>
+							</a>
+						</div>
+						<div class='navmenu-item item-last'>
+							<a href="http://map.baidu.com/mobile/webapp/index/index?itj=45&wtj=wi&ssid=0&from=844b&uid=&pu=sz%40320_1001%2Cta%40iphone_2_6.0_3_537&bd_page_type=1&showcvr=1">
+								<i class="map"></i>
+								<span>地图</span>
+							</a>
+						</div>
+
+					</div>
+					<div class="pagination">
+						<i class='num1'></i><i class="num2"></i>
+					</div>
+				</div>
+				<div class="news-container">
+					<ul>
+						<li>
+							<h2>老司机们都看看，无数“手动挡”“老司机”都不敢上的桥！</h2>
+							<div class="news-item1">
+								<img src="img/u=417955737,1191388515&fm=170&s=257C5687917F3D9244FDBCAD03005001&w=218&h=146&img.JPEG" class="img" />
+								<img src="img/pic.JPEG" class="img img2" />
+								<img src="img/pic2.JPEG" class="img" />
+							</div>
+							<p class="news-item-script ">
+								<span>红遍体育</span>
+								<span>10.24</span>
+								<span><strong>推荐</strong></span>
+							</p>
+
+						</li>
+						<li>
+							<h2>老司机们都看看，无数“手动挡”“老司机”都不敢上的桥！</h2>
+							<div class="news-item1">
+								<img src="img/u=417955737,1191388515&fm=170&s=257C5687917F3D9244FDBCAD03005001&w=218&h=146&img.JPEG" class="img" />
+								<img src="img/pic.JPEG" class="img img2" />
+								<img src="img/pic2.JPEG" class="img" />
+							</div>
+							<p class="news-item-script ">
+								<span>红遍体育</span>
+								<span>10.24</span>
+								<span><strong>推荐</strong></span>
+							</p>
+
+						</li>
+						<li>
+							<h2>老司机们都看看，无数“手动挡”“老司机”都不敢上的桥！</h2>
+							<div class="news-item1">
+								<img src="img/u=417955737,1191388515&fm=170&s=257C5687917F3D9244FDBCAD03005001&w=218&h=146&img.JPEG" class="img" />
+								<img src="img/pic.JPEG" class="img img2" />
+								<img src="img/pic2.JPEG" class="img" />
+							</div>
+							<p class="news-item-script ">
+								<span>红遍体育</span>
+								<span>10.24</span>
+								<span><strong>推荐</strong></span>
+							</p>
+
+						</li>
+						<li>
+							<h2>老司机们都看看，无数“手动挡”“老司机”都不敢上的桥！</h2>
+							<div class="news-item1">
+								<img src="img/u=417955737,1191388515&fm=170&s=257C5687917F3D9244FDBCAD03005001&w=218&h=146&img.JPEG" class="img" />
+								<img src="img/pic.JPEG" class="img img2" />
+								<img src="img/pic2.JPEG" class="img" />
+							</div>
+							<p class="news-item-script ">
+								<span>红遍体育</span>
+								<span>10.24</span>
+								<span><strong>推荐</strong></span>
+							</p>
+
+						</li>
+						<li>
+							<h2>老司机们都看看，无数“手动挡”“老司机”都不敢上的桥！</h2>
+							<div class="news-item1">
+								<img src="img/u=417955737,1191388515&fm=170&s=257C5687917F3D9244FDBCAD03005001&w=218&h=146&img.JPEG" class="img" />
+								<img src="img/pic.JPEG" class="img img2" />
+								<img src="img/pic2.JPEG" class="img" />
+							</div>
+							<p class="news-item-script ">
+								<span>红遍体育</span>
+								<span>10.24</span>
+								<span><strong>推荐</strong></span>
+							</p>
+
+						</li>
+						<li>
+							<h2>老司机们都看看，无数“手动挡”“老司机”都不敢上的桥！</h2>
+							<div class="news-item1">
+								<img src="img/u=417955737,1191388515&fm=170&s=257C5687917F3D9244FDBCAD03005001&w=218&h=146&img.JPEG" class="img" />
+								<img src="img/pic.JPEG" class="img img2" />
+								<img src="img/pic2.JPEG" class="img" />
+							</div>
+							<p class="news-item-script ">
+								<span>红遍体育</span>
+								<span>10.24</span>
+								<span><strong>推荐</strong></span>
+							</p>
+
+						</li>
+						<li>
+							<h2>老司机们都看看，无数“手动挡”“老司机”都不敢上的桥！</h2>
+							<div class="news-item1">
+								<img src="img/u=417955737,1191388515&fm=170&s=257C5687917F3D9244FDBCAD03005001&w=218&h=146&img.JPEG" class="img" />
+								<img src="img/pic.JPEG" class="img img2" />
+								<img src="img/pic2.JPEG" class="img" />
+							</div>
+							<p class="news-item-script ">
+								<span>红遍体育</span>
+								<span>10.24</span>
+								<span><strong>推荐</strong></span>
+							</p>
+
+						</li>
+						<li>
+							<h2>老司机们都看看，无数“手动挡”“老司机”都不敢上的桥！</h2>
+							<div class="news-item1">
+								<img src="img/u=417955737,1191388515&fm=170&s=257C5687917F3D9244FDBCAD03005001&w=218&h=146&img.JPEG" class="img" />
+								<img src="img/pic.JPEG" class="img img2" />
+								<img src="img/pic2.JPEG" class="img" />
+							</div>
+							<p class="news-item-script ">
+								<span>红遍体育</span>
+								<span>10.24</span>
+								<span><strong>推荐</strong></span>
+							</p>
+
+						</li>
+						<li>
+							<h2>老司机们都看看，无数“手动挡”“老司机”都不敢上的桥！</h2>
+							<div class="news-item1">
+								<img src="img/u=417955737,1191388515&fm=170&s=257C5687917F3D9244FDBCAD03005001&w=218&h=146&img.JPEG" class="img" />
+								<img src="img/pic.JPEG" class="img img2" />
+								<img src="img/pic2.JPEG" class="img" />
+							</div>
+							<p class="news-item-script ">
+								<span>红遍体育</span>
+								<span>10.24</span>
+								<span><strong>推荐</strong></span>
+							</p>
+
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+			<div class="footer">
+				<div class="ad">
+
+					<a href="http://uil.cbs.baidu.com/urlsafe/redirect?rid=100054" class="webbrowser iconfont">百度浏览器，上网提速200%</a>
+
+					<a href="http://downpack.baidu.com/baidusearch_AndroidPhone_1002024w.apk" class="webapp">手机百度， 6亿用户的极速搜索应用</a>
+
+					<a href="http://e.baidu.com/m2/?refer=209" class="baidu-promotion iconfont">百度推广，让有需求的客户找到你</a>
+
+				</div>
+				<div class='website-info'>
+					<a href="http://ufosdk.baidu.com/?m=Client&a=commonsubmit&appid=517&activityId=1&needEmail=false&bw=87E71587194EB0C5FEE8A60804C8C6BD&kw=&tn=iphone&pageid=6" class="user-feedback"><i></i> 用户反馈</a>
+					<a href="https://www.baidu.com/duty/wise/wise_index.html" class="Licence"> 使用百度前必读 Baidu 京ICP证030173号</a>
+					<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" class="record-number"><i></i>京公网安备11000002000001号</a>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+	<!--导航设置下拉菜单-->
+	<div id="bdpfmenu" class="response-cls">
+		<div class="bdnuarrow"><em></em><i></i></div>
+		<a href="javascript:;">搜索设置</a>
+		<a href="//www.baidu.com/gaoji/advanced.html" target="_blank">高级搜索</a>
+		<a href="javascript:;">开启预测</a>
+		<a href="javascript:;">搜索历史</a>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/baidu.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+
+</html>

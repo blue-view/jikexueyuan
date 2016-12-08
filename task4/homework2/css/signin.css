@@ -1,0 +1,114 @@
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #282828;
+}
+
+
+/*.form-signin {
+	max-width: 400px;
+	margin: 0 auto;
+	max-height: 300px;
+	background: url(../img/login_form_bg.png) repeat;
+	border-radius: 2px;
+	padding: 2.5% 20% 8% 20%;
+}*/
+
+@media only screen and (min-width: 400px) {
+	.form-signin {
+		max-width: 400px;
+		margin: 0 auto;
+		max-height: 300px;
+		background: url(../img/login_form_bg.png) no-repeat;
+		background-size: 400px 300px;
+		border-radius: 2px;
+		padding: 10px 83px 53px 83px;
+	}
+}
+
+@media only screen and (max-width: 399px) {
+	.form-signin {
+		max-width: 400px;
+		margin: 0 auto;
+		max-height: 300px;
+		background: url(../img/login_form_bg.png) repeat;
+		border-radius: 2px;
+		padding: 2.5% 21% 8% 21%;
+		min-width: 200px;
+	}
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin-heading {
+	color: #fff;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: normal;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
+	height: 40px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="text"] {
+	margin-bottom: 15px;
+	color: #fff;
+	background: #46454b;
+	border: 1px solid #46454b;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 15px;
+	background: #9f9c9e;
+}
+
+.form-signin button {
+	height: 40px;
+	font-size: 12px;
+	background-color: #21a9f4;
+	border-color: #21a9f4;
+}
+
+.form-signin button:hover {
+	background-color: #0ea1f4;
+	border-color: #0ea1f4;
+}
+
+.form-signin input[type="password"]::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #E2E2E2;
+}
+
+.form-signin input[type="password"]:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #E2E2E2;
+}
+
+.form-signin input[type="password"]::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #E2E2E2;
+}
+
+.form-signin input[type="password"]:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #E2E2E2;
+}
