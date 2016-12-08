@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>计算器</title>
+		<!--引入重置样式-->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<!--引入自定义样式文件 -->
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+
+	<body>
+		<!--计算器容器-->
+		<div class="container">
+			<!--计算器头部-->
+			<div class="cal-header">
+				<!--圆点-->
+				<div class='cal-circle'>
+					<i class="first"></i>
+					<i class="second"></i>
+					<i class="three"></i>
+				</div>
+			</div>
+			<!--计算器显示结果部分-->
+			<div class="cal-result">
+				<input class="cal-number" value="0" id='txtresult' readonly="readonly" />
+			</div>
+			<!--计算器操作部分-->
+			<div class="cal-operbtn">
+				<ul id='oper'>
+					<li>sin</li>
+					<li>cos</li>
+					<li>1/x</li>
+					<li class="lastbtn">x^2</li>
+
+					<li>C</li>
+					<li>±</li>
+					<li>/</li>
+					<li class="lastbtn">*</li>
+
+					<li>7</li>
+					<li>8</li>
+					<li>9</li>
+					<li class="lastbtn">-</li>
+
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li class="lastbtn">+</li>
+
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li class="lastbtn equal">=</li>
+
+					<li class="zero pos">0</li>
+					<li class="pos2">.</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<input id='x' type="hidden" />
+		<input id='y' type="hidden" />
+		<input id='operLetter' type="hidden" />
+		<script type="text/javascript" src="js/index.js"></script>
+
+	</body>
+
+</html>
