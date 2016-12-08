@@ -1,0 +1,314 @@
+/*简笔画容器*/
+
+.octopus-box {
+	margin: 0 auto;
+	text-align: center;
+	width: 184px;
+	height: 184px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -92px;
+	margin-top: -92px;
+}
+
+
+/*简笔画-头*/
+
+.octopus {
+	width: 180px;
+	height: 180px;
+	border: 2px solid #000;
+	border-radius: 50%;
+	position: relative;
+}
+
+.octopus1 {
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	position: absolute;
+	background: #fff;
+	left: 41px;
+	top: 104px;
+}
+
+
+/*定义左眼动画*/
+
+@-webkit-keyframes turn-left-eyes {
+	0% {
+		left: 30px;
+	}
+	50% {
+		left: 40px;
+	}
+	100% {
+		left: 50px;
+	}
+}
+
+@-ms-keyframes turn-left-eyes {
+	0% {
+		left: 30px;
+	}
+	50% {
+		left: 40px;
+	}
+	100% {
+		left: 50px;
+	}
+}
+
+@-moz-keyframes turn-left-eyes {
+	0% {
+		left: 30px;
+	}
+	50% {
+		left: 40px;
+	}
+	100% {
+		left: 50px;
+	}
+}
+
+
+/*简笔画-左眼*/
+
+.octopus-eye-box-left {
+	width: 34px;
+	height: 34px;
+	background: #000;
+	border-radius: 50%;
+	position: absolute;
+	left: 30px;
+	top: 80px;
+	animation: turn-left-eyes 3s infinite linear;
+	-webkit-animation: turn-left-eyes 3s infinite linear;
+	-ms-animation: turn-left-eyes 3s infinite linear;
+	-moz-animation: turn-left-eyes 3s infinite linear;
+	z-index: 10;
+}
+
+.octopus-eye-box-left-ball {
+	width: 16px;
+	height: 16px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 5px;
+	top: 6px;
+}
+
+
+/*定义右眼动画*/
+
+@-webkit-keyframes turn-right-eyes {
+	0% {
+		left: 115px;
+	}
+	50% {
+		left: 105px;
+	}
+	100% {
+		left: 95px;
+	}
+}
+
+@-ms-keyframes turn-right-eyes {
+	0% {
+		left: 115px;
+	}
+	50% {
+		left: 105px;
+	}
+	100% {
+		left: 95px;
+	}
+}
+
+@-moz-keyframes turn-right-eyes {
+	0% {
+		left: 115px;
+	}
+	50% {
+		left: 105px;
+	}
+	100% {
+		left: 95px;
+	}
+}
+
+
+/*简笔画-右眼*/
+
+.octopus-eye-box-right {
+	width: 34px;
+	height: 34px;
+	background: #000;
+	border-radius: 50%;
+	position: absolute;
+	left: 115px;
+	top: 75px;
+	animation: turn-right-eyes 3s infinite linear;
+	-webkit-animation: turn-right-eyes 3s infinite linear;
+	-ms-animation: turn-right-eyes 3s infinite linear;
+	-moz-animation: turn-right-eyes 3s infinite linear;
+	z-index: 10;
+}
+
+.octopus-eye-box-right-ball {
+	width: 16px;
+	height: 16px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 3px;
+	top: 6px;
+}
+
+
+/*简笔画-触角1*/
+
+.octopus-eye-box-foot1 {
+	width: 60px;
+	height: 80px;
+	border: 0;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 2px solid #000;
+	position: absolute;
+	left: 42px;
+	top: 140px;
+	z-index: 4;
+}
+
+.octopus-eye-box-foot1:after {
+	content: '';
+	width: 70px;
+	height: 60px;
+	border: 0;
+	background-color: #fff;
+	display: block;
+	border-radius: 50%;
+	margin-left: -1px;
+	margin-top: -10px;
+}
+
+
+/*简笔画-触角2*/
+
+.octopus-eye-box-foot2 {
+	width: 58px;
+	height: 80px;
+	border: 0;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 2px solid #000;
+	position: absolute;
+	left: 94px;
+	top: 140px;
+	z-index: 3;
+	transform: rotateZ(-20deg);
+	-webkit-transform: rotateZ(-20deg);
+	-ms-transform: rotateZ(-20deg);
+	-moz-transform: rotateZ(-20deg);
+}
+
+.octopus-eye-box-foot2:after {
+	content: '';
+	width: 60px;
+	height: 60px;
+	border: 0;
+	background-color: #fff;
+	display: block;
+	border-radius: 50%;
+	margin-left: -1px;
+	margin-top: -12px;
+}
+
+
+/*简笔画-触角3*/
+
+.octopus-eye-box-foot3 {
+	width: 60px;
+	height: 60px;
+	border: 0;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 2px solid #000;
+	position: absolute;
+	left: 130px;
+	top: 130px;
+	z-index: -1;
+	border-top-color: transparent;
+	transform: rotateZ(-30deg);
+	-webkit-transform: rotateZ(-30deg);
+	-ms-transform: rotateZ(-30deg);
+	-moz-transform: rotateZ(-30deg);
+}
+
+
+/*简笔画-触角4*/
+
+.octopus-eye-box-foot4 {
+	width: 30px;
+	height: 30px;
+	border: 0;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 2px solid #000;
+	position: absolute;
+	left: 160px;
+	top: 103px;
+	z-index: -2;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	transform: rotateZ(-30deg);
+	-webkit-transform: rotateZ(-30deg);
+	-ms-transform: rotateZ(-30deg);
+	-moz-transform: rotateZ(-30deg);
+}
+
+
+/*简笔画-触角5*/
+
+.octopus-eye-box-foot5 {
+	width: 50px;
+	height: 70px;
+	border: 0;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 2px solid #000;
+	position: absolute;
+	left: 2px;
+	top: 144px;
+	z-index: -1;
+	border-top-color: transparent;
+	transform: rotateZ(18deg);
+	-webkit-transform: rotateZ(18deg);
+	-ms-transform: rotateZ(18deg);
+	-moz-transform: rotateZ(18deg);
+}
+
+
+/*简笔画-触角6*/
+
+.octopus-eye-box-foot6 {
+	width: 30px;
+	height: 30px;
+	border: 0;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 2px solid #000;
+	position: absolute;
+	left: -5px;
+	top: 123px;
+	z-index: -2;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	transform: rotateZ(21deg);
+	-webkit-transform: rotateZ(21deg);
+	-ms-transform: rotateZ(21deg);
+	-moz-transform: rotateZ(21deg);
+}
