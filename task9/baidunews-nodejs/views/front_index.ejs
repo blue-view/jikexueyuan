@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<title>
+			<%=title%>
+		</title>
+		<!--引入样式重置文件-->
+		<link rel='stylesheet' type="text/css" href="../css/normalize.css" />
+		<!--引入字体图标文件-->
+		<link rel='stylesheet' type="text/css" href="../font/iconfont.css" />
+		<!--引入新闻样式文件-->
+		<link rel="stylesheet" type="text/css" href="../css/news.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<!--头部-->
+
+			<header class="cf">
+				<a href="#"><span class="iconfont">
+					&#xe6b7;
+				</span></a>
+				<a href="#"><span class="iconfont">
+					&#xe6ac;
+				</span></a>
+				<a href="#"><span class="iconfont">
+					&#xe62e;
+				</span></a>
+				<a href="#"><span class="iconfont">
+					&#xe604;
+				</span></a>
+
+			</header>
+			<!--导航-->
+			<nav>
+				<ul>
+					<li>
+						<a href="#" data-newstype='1'>精选<span class="selected"></span></a><i></i></li>
+					<li>
+						<a href="#" data-newstype='2'>百家<span></span></a><i></i></li>
+					<li>
+						<a href="#" data-newstype='3'>本地<span></span></a><i></i></li>
+					<li>
+						<a href="#" data-newstype='4'>娱乐<span></span></a><i></i></li>
+					<li>
+						<a href="#" data-newstype='5'>社会<span></span></a><i></i></li>
+					<li>
+						<a href="#" data-newstype='6'>军事<span></span></a><i></i></li>
+					<li>
+						<a href="#" data-newstype='7'>女人<span></span></a><i></i></li>
+					<li>
+						<a href="#" data-newstype='8'>搞笑<span></span></a><i></i></li>
+					<li>
+						<a href="#" data-newstype='9'>互联网<span></span></a><i></i></li>
+					<li>
+						<a href="#" data-newstype='10'>科技<span></span></a><i></i></li>
+					<li>
+						<a href="#">更多</a><i></i></li>
+				</ul>
+			</nav>
+			<!--主题内容-->
+			<article class="news-main">
+				<ul class="news-lists">
+					<li class="news-list">
+						<div class="newsimg">
+							<img src='../img/pic.png' width="100%" />
+						</div>
+						<div class="newscontent">
+							<h1>全年净收入预期过2500亿，京东巨无霸格局已成定局</h1>
+							<p>
+								<span class="newstime">2016-11-16</span>
+								<span class="newssrc">搜狐要闻</span>
+							</p>
+						</div>
+					</li>
+				</ul>
+			</article>
+		</div>
+		<script src='../js/jquery.js' type="text/javascript"></script>
+		<script src="../js/moment.js" type="text/javascript"></script>
+		<script src="../js/xss.js" type="text/javascript"></script>
+		<script src='../js/news.js' type="text/javascript"></script>
+	</body>
+
+</html>
