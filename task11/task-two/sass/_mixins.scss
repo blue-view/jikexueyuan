@@ -1,0 +1,10 @@
+@mixin center-block {
+    margin: 0 auto;
+}
+@mixin box-sizing($box-sizing) {
+    box-sizing: $box-sizing;
+    -webkit-box-sizing: $box-sizing;
+    -moz-box-sizing: $box-sizing;
+    -ms-box-sizing: $box-sizing;
+    -o-box-sizing: $box-sizing;
+}

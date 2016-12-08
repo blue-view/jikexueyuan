@@ -1,0 +1,47 @@
+@mixin b-close() {
+		display: block;
+		content: '';
+		width: 2px;
+		height: 14px;
+		background: #2c2d4e;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -7px;
+		margin-left: -1px;
+}
+@mixin transform($transform) {
+		transform: $transform;
+		-webkit-transform:$transform;
+		-ms-transform:$transform;
+		-moz-transform:$transform;
+		-o-transform:$transform;
+}
+@mixin transition($transition) {
+		transition: $transition;
+		-webkit-transition:$transition;
+		-ms-transition:$transition;
+		-moz-transition:$transition;
+		-o-transition:$transition;
+}
+@mixin box-sizing ($sizing) {
+    -webkit-box-sizing:$sizing;     
+       -moz-box-sizing:$sizing;
+	   	-ms-box-sizing:$sizing;
+		 -o-box-sizing:$sizing;
+            box-sizing:$sizing;
+}
+@mixin animation($animation){
+	animation:$animation;
+	-moz-animation:$animation;
+	-webkit-animation: $animation;
+	-ms-animation: $animation;
+	-o-animation: $animation;
+}
+@mixin transformOrigin($transformOrigin){
+	transform-origin:$transformOrigin;
+	-webkit-transform-origin:$transformOrigin;
+	-moz-transform-origin:$transformOrigin;
+	-ms-transform-origin:$transformOrigin;
+	-o-transform-origin: $transformOrigin;
+}

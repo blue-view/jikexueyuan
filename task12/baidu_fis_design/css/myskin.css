@@ -1,0 +1,115 @@
+.newhead {
+	border: none;
+	background: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(15, 25, 50, .3)), to(rgba(15, 25, 50, .3)));
+	background-image: -moz-linear-gradient(rgba(15, 25, 50, .3) 0, rgba(15, 25, 50, .3) 100%);
+	background-image: -ms-linear-gradient(rgba(15, 25, 50, .3) 0, rgba(15, 25, 50, .3) 100%);
+	background-image: -o-linear-gradient(rgba(15, 25, 50, .3) 0, rgba(15, 25, 50, .3) 100%);
+	background-image: linear-gradient(rgba(15, 25, 50, .3) 0, rgba(15, 25, 50, .3) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#330f1932, endColorstr=#330f1932);
+}
+
+.newhead a {
+	color: #fff;
+}
+
+.wheatherlife {
+	clear: none;
+	display: inline-block;
+	margin: 7px 0 0 15px;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+}
+
+header nav>a.login {
+	display: inline-block;
+	float: left;
+	color: #fff;
+	font-size: 13px;
+	line-height: 34px;
+	margin-left: 20px;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+header nav>a.setting {
+	display: inline-block;
+	float: left;
+	color: #fff;
+	line-height: 34px;
+	font-size: 13px;
+	margin-left: 20px;
+	overflow: hidden;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.content button.btn-baidu {
+	display: none;
+}
+
+.content button.btn-baidu2 {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	position: absolute;
+	left: 540px;
+	outline: none;
+	display: block;
+	width: 104px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	color: #000;
+	font-size: 16px;
+	background-position: -206px 0;
+	background-image: url(../img/skin_dark_aab96bcc.png?__sprite);
+}
+
+.content .input-container {
+	background: #fff;
+	display: inline-block;
+	vertical-align: top;
+	width: 540px;
+	margin-right: 0;
+	border-right-width: 0;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	height: 40px;
+	border: none;
+}
+
+.content .input-container input {
+	width: 100%;
+	padding: 0;
+	border: 0;
+	width: 500px;
+	height: 30px;
+	margin: 6px 0 0 7px;
+	float: left;
+}
+
+.split {
+	margin-right: 11px;
+	height: 20px;
+	color: #fff;
+	margin-top: 9px;
+}
+
+/*.pageTop {
+	visibility: hidden;
+	position: fixed;
+	left: 50%;
+	margin-left: 447px;
+	width: 51px;
+	bottom: 30px;
+	display: none;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.3) 100%);
+}*/
+#baidu-info, #baidu-info a {
+    color: #fff;
+}

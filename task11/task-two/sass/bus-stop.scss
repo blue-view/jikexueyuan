@@ -1,0 +1,146 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+@import 'mixins';
+.container {
+    width: 787px;
+    height: 478px;
+    background: #fff;
+    padding-top: 20px;
+    padding-left: 15px;
+    @include box-sizing(border-box);
+    @include center-block;
+}
+.container__main {
+    width: 100%;
+    height: 100%;
+    background: #f6f6f6;
+}
+.container__main__top {
+    width: 100%;
+    height: 180px;
+    .container__main__top__roadLineName {
+        float: left;
+        clear: none;
+        width: 288px;
+        margin-top: 10px;
+        .container__main__top__roadLineName--number {
+            color: #fff;
+            background: #cd2f00;
+            width: 279px;
+            height: 117px;
+            line-height: 117px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 100px;
+        }
+        .container__main__top__roadLineName--time {
+            color: #424242;
+            height: 50px;
+            line-height: 50px;
+            width: 100%;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 19px;
+            font-weight: bolder;
+        }
+    }
+    .container__main__top__stationFromTo {
+        float: left;
+        clear: none;
+        width: 484px;
+        text-align: center;
+        .container__main__top__stationFromTo--stationFromToName {
+            color: #1B6D1B;
+            font-size: 26px;
+            font-weight: bolder;
+            margin-top: 10px;
+        }
+        .container__main__top__stationFromTo--spell {
+            color: #22742a;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        .container__main__top__stationFromTo--currentStationName {
+            color: #a94006;
+            font-size: 28px;
+            margin-top: 24px;
+            font-weight: bolder;
+        }
+    }
+}
+.container__main__middle {
+    clear: both;
+    height: 200px;
+    overflow: hidden;
+    .container__main__middle--detailRoadLine {
+        background-color: #006401;
+        color: #fff;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        padding: 18px;
+        box-sizing: border-box;
+        li {
+            list-style: none;
+            display: inline-block;
+            font-size: 12px;
+            padding: 0 9px;
+            &>span:nth-child(1) {
+                display: block;
+                clear: both;
+                text-align: center;
+                cursor: default;
+            }
+            &>span:nth-child(2) {
+                writing-mode: tb-rl;
+                display: block;
+                clear: both;
+                letter-spacing: 5px;
+                margin-top: 5px;
+                cursor: default;
+            }
+            &.selected {
+                color: #b5d60b;
+            }
+        }
+    }
+}
+.container__main__bottom {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    .container__main__bottom--price {
+        clear: both;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        color: #404040;
+        font-weight: bolder;
+    }
+    .container__main__bottom--arrow {
+        width: 100%;
+        .container__main__bottom--arrow--body {
+            width: 494px;
+            height: 10px;
+            background-color: #a94006;
+            float: left;
+            clear: none;
+            margin-top: 8px;
+            margin-left: 122px;
+        }
+        .container__main__bottom--arrow--header {
+            float: left;
+            clear: none;
+            width: 0;
+            height: 0;
+            border-bottom: 18px solid #a94006;
+            border-right: 64px solid transparent;
+        }
+    }
+}
