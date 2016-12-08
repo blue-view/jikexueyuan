@@ -1,0 +1,16 @@
+.col {
+	-webkit-column-count: 4;
+	-webkit-column-rule-style: dashed;
+	border: 5px solid #000;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.center {
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	height: 300px;
+	width: 300px;
+	background-color: orange;
+}

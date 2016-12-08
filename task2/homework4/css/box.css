@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.normal-box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+}
+
+.normal-box1 {
+	padding: 10px;
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	margin: 100px;
+	border: 5px solid #00FFFF;
+}
+
+.weird-box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	line-height: 100px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.weird-box1 {
+	padding: 10px;
+	background-color: green;
+	width: 130px;
+	height: 130px;
+	margin: 100px;
+	border: 5px solid #00FFFF;
+	box-sizing: border-box;
+}

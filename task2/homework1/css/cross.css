@@ -1,0 +1,63 @@
+div {
+	width: 100px;
+	height: 100px;
+	/*float: left;*/
+	/*padding: 0;
+	margin: 0;
+	border: 0;*/
+	-webkit-box-shadow: 0 0 6px #552873;
+	-moz-box-shadow: 0 0 6px #552873;
+	box-shadow: 0 0 6px #552873;
+}
+
+.container {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -150px;
+	box-shadow: none;
+}
+
+
+/*顶部div*/
+
+.top_side {
+	background-color: #306A92;
+	margin: 0 auto;
+}
+
+
+/*左边div*/
+
+.left_side {
+	background-color: #552873;
+	float: left;
+}
+
+
+/*中间div*/
+
+.middle_side {
+	background: url(../img/football.ico) center center no-repeat;
+	float: left;
+}
+
+
+/*右边div*/
+
+.right_side {
+	background-color: #339e37;
+	float: left;
+}
+
+
+/*底部*/
+
+.bottom_side {
+	background-color: #8D1C2D;
+	clear: both;
+	margin: 0 auto;
+}
