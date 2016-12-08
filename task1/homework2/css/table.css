@@ -1,0 +1,30 @@
+body
+{
+	background: #ccc;
+}
+/*课程标题样式*/
+div {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 93px;
+	margin-bottom: 12px;
+}
+
+/*
+ 课程表格样式
+ * */
+
+table tr th {
+	text-align: center;
+	padding: 10px 0;
+	width:67px;
+	background: #999;
+}
+
+table tr td {
+	width: 67px;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+}
