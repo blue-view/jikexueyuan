@@ -1,0 +1,16 @@
+.titleCls {
+	padding: 10px;
+	line-height: 30px;
+}
+
+.resultCls {
+	padding: 5px;
+}
+
+.resultCls div {
+	padding: 5px;
+}
+
+.resultCls div.posCls {
+	padding-bottom: 20px;
+}

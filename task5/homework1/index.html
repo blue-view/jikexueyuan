@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>判断学员的分数等级</title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<form>
+				<div>
+					<h3>学员评分结果</h3></div>
+				<div>
+					<span class="titlecls"><label for="score">分数：</label></span>
+					<span><input id='score' type="text" /></span>
+				</div>
+				<div id='trinfo' class="infocontainer">
+					<span class="info" id='info'></span>
+				</div>
+				<div>
+					<span class="titlecls"><label for='level'>结果：</label></span>
+					<span><label id='levelValue' class="levelValue"></label></span>
+				</div>
+				<div>
+					<button type="button" onclick="showResult();" id='btnOk' class="btn">确认</button>
+					<button onclick="resetInfo();" type="button" id='btnReset'>清空</button>
+				</div>
+			</form>
+		</div>
+
+	</body>
+	<script type="text/ecmascript" src="js/index.js"></script>
+
+</html>

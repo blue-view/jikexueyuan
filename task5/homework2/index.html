@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>简易计算器</title>
+		<link href="css/index.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h3>简易计算器</h3>
+			<form>
+				<div>
+					<input type="text" id='x' maxlength="10" />
+					<select id='oper'>
+						<option value="+">加</option>
+						<option value="-">减</option>
+						<option value="*">乘</option>
+						<option value="/">除</option>
+					</select>
+					<input type="text" id='y' maxlength="10" />
+					<span>=</span>
+					<span id='result' class="result"></span>
+					<input type="button" value="确认" id='ok' />
+				</div>
+				<div id='info' class="info"></div>
+			</form>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/cal.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</html>

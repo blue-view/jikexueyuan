@@ -1,0 +1,84 @@
+body {
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+
+div,
+span,
+input,
+select {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.container {
+	width: 450px;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.container div {
+	padding: 10px;
+	display: inline-block;
+	width: 100%;
+}
+
+h3 {
+	width: 100%;
+	text-align: center;
+}
+
+.container span {
+	display: block;
+	float: left;
+	clear: none;
+	height: 25px;
+	line-height: 25px;
+	width: 20px;
+	text-align: right;
+	margin-right: 4px;
+	text-align: center;
+}
+
+.container span.result {
+	border: 1px solid #7d6868;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	box-sizing: border-box;
+}
+
+.container select {
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	width: 50px;
+	border: 1px solid #7d6868;
+	margin-left: 8px;
+	margin-right: 10px;
+	display: block;
+	box-sizing: border-box;
+}
+
+.container input {
+	border: 1px solid #7d6868;
+	height: 25px;
+	line-height: 25px;
+	width: 80px;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+input[type='button'] {
+	margin-left: 5px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.info {
+	color: red;
+}
