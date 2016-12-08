@@ -1,0 +1,46 @@
+.pager {
+	margin: 15px 0;
+}
+
+.pager a {
+	font-size: 12px;
+	cursor: pointer;
+	margin: 0 5px;
+	color: #35b558;
+}
+
+.pager a:hover {
+	background-color: #35b558;
+	color: #35b558;
+}
+
+.pager a.jp-previous {
+	margin-right: 15px;
+}
+
+.pager a.jp-next {
+	margin-left: 15px;
+}
+
+.pager a.jp-current,
+a.jp-current:hover {
+	color: #35b558;
+	font-weight: bold;
+}
+
+.pager a.jp-disabled,
+a.jp-disabled:hover {
+	color: #35b558;
+}
+
+.pager a.jp-current,
+a.jp-current:hover,
+.pager a.jp-disabled,
+a.jp-disabled:hover {
+	cursor: default;
+	background: none;
+}
+
+.pager span {
+	margin: 0 5px;
+}
